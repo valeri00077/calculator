@@ -61,7 +61,7 @@ body {
     background-color: rgb(24, 24, 24);
 }
 
-.number:hover, .itempoint:hover {
+.number:active, .itempoint:active {
     background-color: rgb(87, 86, 86, 0.5);
     transition: 0.3s;
 }
@@ -70,9 +70,9 @@ body {
     background-color: rgb(238, 127, 1);
 }
 
-.operatordesign:hover {
+.operatordesign:active {
     background-color: rgba(231, 149, 55, 0.95);
-    transition: 0.3s;
+    /* transition: 1s; */
 }
 
 .operatordesign2 {
@@ -80,10 +80,10 @@ body {
     color: black;
 }
 
-.operatordesign2:hover {
+.operatordesign2:active {
     background-color: rgb(235, 230, 220, 0.8);
     color: black;
-    transition: 0.3s;
+    /* transition: 1s; */
 }
 
 .newclassoperator {
@@ -103,7 +103,7 @@ body {
     justify-content: end;
     align-items: end;
     padding: 10px;
-    font-size: 45px;
+    font-size: 60px;
     color: white;
 }
 
@@ -184,6 +184,7 @@ body {
     
     .operatordesign {
         background-color: rgb(238, 127, 1);
+        transition: background-color 0.3 ease;
     }
     
     .operatordesign:hover {
@@ -194,6 +195,7 @@ body {
     .operatordesign2 {
         background-color: rgb(150, 146, 139);
         color: black;
+        /* transition: background-color 0.3 ease; */
     }
     
     .operatordesign2:hover {
